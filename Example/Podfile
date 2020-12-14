@@ -5,9 +5,10 @@ platform :ios, '9.0'
 target 'MaxSvgSDK_Example' do
   pod 'MaxSvgSDK', :path => '../'
 
+  pod 'Alamofire'
+  
   target 'MaxSvgSDK_Tests' do
     inherit! :search_paths
 
-    
   end
 end

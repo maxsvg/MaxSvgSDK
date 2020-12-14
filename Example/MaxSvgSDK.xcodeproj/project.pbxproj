@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0479F46A25879F29005465EA /* Pods_MaxSvgSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0479F46925879F29005465EA /* Pods_MaxSvgSDK_Example.framework */; };
+		0479F46B25879F29005465EA /* Pods_MaxSvgSDK_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0479F46925879F29005465EA /* Pods_MaxSvgSDK_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0AFFD2B9DB6F340B746871E9 /* Pods_MaxSvgSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F79E33B2B90E355015254A8 /* Pods_MaxSvgSDK_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -27,8 +29,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0479F46C25879F29005465EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0479F46B25879F29005465EA /* Pods_MaxSvgSDK_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		3CB456E141C567CC40275F1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0479F46925879F29005465EA /* Pods_MaxSvgSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MaxSvgSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB456E141C567CC40275F1D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MaxSvgSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxSvgSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +56,13 @@
 		607FACE51AFB9204008FA782 /* MaxSvgSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxSvgSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		639950621D23EE4B4278F801 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		639950621D23EE4B4278F801 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6C26D49D7B3A1207D15B1580 /* Pods-MaxSvgSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxSvgSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MaxSvgSDK_Example/Pods-MaxSvgSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6F79E33B2B90E355015254A8 /* Pods_MaxSvgSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxSvgSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CA32743064440B5D63AB0D /* Pods-MaxSvgSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxSvgSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-MaxSvgSDK_Tests/Pods-MaxSvgSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A9D8B64606F5C3FDE99374F /* Pods_MaxSvgSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaxSvgSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6A2B0AFF2AC6A02DDD0428 /* Pods-MaxSvgSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxSvgSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MaxSvgSDK_Example/Pods-MaxSvgSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CCE38E3F90DF35C51B1EF575 /* MaxSvgSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MaxSvgSDK.podspec; path = ../MaxSvgSDK.podspec; sourceTree = "<group>"; };
+		CCE38E3F90DF35C51B1EF575 /* MaxSvgSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MaxSvgSDK.podspec; path = ../MaxSvgSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8A9809A3065E48C5320F6C0 /* Pods-MaxSvgSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxSvgSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MaxSvgSDK_Tests/Pods-MaxSvgSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0479F46A25879F29005465EA /* Pods_MaxSvgSDK_Example.framework in Frameworks */,
 				AD9CADE46E80236E00E63AB5 /* Pods_MaxSvgSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +90,7 @@
 		2F08D0AAEFFD107018739EA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0479F46925879F29005465EA /* Pods_MaxSvgSDK_Example.framework */,
 				9A9D8B64606F5C3FDE99374F /* Pods_MaxSvgSDK_Example.framework */,
 				6F79E33B2B90E355015254A8 /* Pods_MaxSvgSDK_Tests.framework */,
 			);
@@ -156,7 +175,6 @@
 				E8A9809A3065E48C5320F6C0 /* Pods-MaxSvgSDK_Tests.debug.xcconfig */,
 				86CA32743064440B5D63AB0D /* Pods-MaxSvgSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +189,8 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				33CD7BCDA74B5FE022458782 /* [CP] Embed Pods Frameworks */,
+				467D5331FACBDB42F724D8BC /* [CP] Embed Pods Frameworks */,
+				0479F46C25879F29005465EA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +246,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,18 +282,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		33CD7BCDA74B5FE022458782 /* [CP] Embed Pods Frameworks */ = {
+		467D5331FACBDB42F724D8BC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MaxSvgSDK_Example/Pods-MaxSvgSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MaxSvgSDK/MaxSvgSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaxSvgSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
