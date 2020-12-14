@@ -1,1 +1,3 @@
 # MaxSvgSDK
+
+Librairie de MaxSvg
