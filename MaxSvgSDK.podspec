@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaxSvgSDK'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Voici la librairie de MaxSvg avec plusieurs outils'
 
 # This description is used to generate tags and improve search results.
