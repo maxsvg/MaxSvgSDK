@@ -1,10 +1,10 @@
 PODS:
-  - Alamofire (4.9.1)
-  - MaxSvgSDK (0.1.0):
-    - Alamofire
+  - Alamofire (5.4.0)
+  - MaxSvgSDK (1.0.0):
+    - Alamofire (~> 5.2)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 5.2)
   - MaxSvgSDK (from `../`)
 
 SPEC REPOS:
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  MaxSvgSDK: 4a22aceeb2822c4cf7e624eddde48f8da9a551a7
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  MaxSvgSDK: b3f3bdf4542ad52c16886c14b773c8543236fd05
 
-PODFILE CHECKSUM: a349352d33ac4e10405a4ed7dff4ad5c3b40e0d3
+PODFILE CHECKSUM: cadedee7cbf6392ca23247ecc780c616909c56c2
 
 COCOAPODS: 1.9.1

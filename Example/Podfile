@@ -1,11 +1,10 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'MaxSvgSDK_Example' do
   pod 'MaxSvgSDK', :path => '../'
-
-  pod 'Alamofire'
+  pod 'Alamofire', '~> 5.2'
   
   target 'MaxSvgSDK_Tests' do
     inherit! :search_paths

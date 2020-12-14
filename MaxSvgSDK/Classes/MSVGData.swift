@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct DataResponse: Decodable {
+public struct MSVGData: Decodable {
     public let response: Resp
 }
 
